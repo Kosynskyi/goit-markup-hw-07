@@ -12,7 +12,7 @@
         "../sass/components/_backdrop.scss",
         "../sass/components/_modal.scss",
         "../sass/components/_feature.scss",
-        "../sass/vendors/_visually-hidden.scss",
+        "../sass/utils/_visually-hidden.scss",
         "../sass/components/_picture.scss",
         "../sass/components/_team.scss",
         "../sass/components/_networks.scss",
