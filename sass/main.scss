@@ -1,1 +1,14 @@
+// var - переменные цвета и текста
+@import "./utils/var";
 
+// global - глобальные стили
+@import "./base/global";
+
+// components - разделы сайта
+@import "./components/header";
+@import "./components/hero-section";
+@import "./components/backdrop";
+@import "./components/modal";
+@import "./components/feature";
+@import "./components/picture";
+@import "./components/team";

@@ -14,12 +14,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <header class="header">
       <div class="container header__container">
-        <a class="header__logo" href="#"
-          >Web<span class="header__span">Studio</span></a
+        <a class="logo logo__header" href="#"
+          >Web<span class="logo logo__span--header">Studio</span></a
         >
         <nav class="header__navigation">
           <ul class="header__list">
@@ -56,206 +57,208 @@
       </div>
     </header>
     <main>
-      <section class="button-section">
-        <div class="container">
+      <section class="section filter-section">
+        <div class="container filter__container">
           <h1 class="visually-hidden" aria-hidden="true">
             Наши работы (заголовок будет скрыт)
           </h1>
-          <ul class="filter">
-            <li class="list-radio">
-              <button class="button-radio" type="button">Все</button>
+          <ul class="filter__list">
+            <li class="filter__item">
+              <button class="filter_btn" type="button">Все</button>
             </li>
-            <li class="list-radio">
-              <button class="button-radio" type="button">Веб-сайты</button>
+            <li class="filter__item">
+              <button class="filter_btn" type="button">Веб-сайты</button>
             </li>
-            <li class="list-radio">
-              <button class="button-radio" type="button">Приложения</button>
+            <li class="filter__item">
+              <button class="filter_btn" type="button">Приложения</button>
             </li>
-            <li class="list-radio">
-              <button class="button-radio" type="button">Дизайн</button>
+            <li class="filter__item">
+              <button class="filter_btn" type="button">Дизайн</button>
             </li>
-            <li class="list-radio">
-              <button class="button-radio" type="button">Маркетинг</button>
+            <li class="filter__item">
+              <button class="filter_btn" type="button">Маркетинг</button>
             </li>
           </ul>
 
           <!-- список портфолио -->
-          <ul class="portfolio">
-            <li class="portfolio-list">
-              <div class="image-descr">
+          <ul class="portfolio__list">
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
                 <img
-                  class="portfolio-img"
+                  class="portfolio__img"
                   src="./images/portfolio/portfolio-1.jpg"
                   alt="Ноутбук с изображением фото людей"
                   width="370"
                   height="294"
                 />
-                <p class="portfolio-descr">
+                <p class="portfolio__description">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="inner">
-                <h2 class="products">Технокряк</h2>
-                <p class="description">Веб-сайт</p>
+              <div class="portfolio__inner">
+                <h2 class="portfolio__products">Технокряк</h2>
+                <p class="portfolio__type">Веб-сайт</p>
               </div>
             </li>
-            <li class="portfolio-list">
-              <div class="image-descr">
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
                 <img
-                  class="portfolio-img"
+                  class="portfolio__img"
                   src="./images/portfolio/portfolio-2.jpg"
                   alt="Два человека играют в баскетбол"
                   width="370"
                   height="294"
                 />
-                <p class="portfolio-descr">
+                <p class="portfolio__description">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="inner">
-                <h2 class="products">Постер New Orlean vs Golden Star</h2>
-                <p class="description">Дизайн</p>
+              <div class="portfolio__inner">
+                <h2 class="portfolio__products">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="portfolio__type">Дизайн</p>
               </div>
             </li>
-            <li class="portfolio-list">
-              <div class="image-descr">
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
                 <img
-                  class="portfolio-img"
+                  class="portfolio__img"
                   src="./images/picture-section/image-3.jpg"
                   alt="	Логотип ресторана Seafood"
                   width="370"
                   height="294"
                 />
-                <p class="portfolio-descr">
+                <p class="portfolio__description">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="inner">
-                <h2 class="products">Ресторан Seafood</h2>
-                <p class="description">Приложение</p>
+              <div class="portfolio__inner">
+                <h2 class="portfolio__products">Ресторан Seafood</h2>
+                <p class="portfolio__type">Приложение</p>
               </div>
             </li>
-            <li class="portfolio-list">
-              <div class="image-descr">
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
                 <img
-                  class="portfolio-img"
+                  class="portfolio__img"
                   src="./images/portfolio/portfolio-4.jpg"
                   alt="Изображены наушники"
                   width="370"
                   height="294"
                 />
-                <p class="portfolio-descr">
+                <p class="portfolio__description">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="inner">
-                <h3 class="products">Проект Prime</h3>
-                <p class="description">Маркетинг</p>
+              <div class="portfolio__inner">
+                <h3 class="portfolio__products">Проект Prime</h3>
+                <p class="portfolio__type">Маркетинг</p>
               </div>
             </li>
-            <li class="portfolio-list">
-              <div class="image-descr">
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
                 <img
-                  class="portfolio-img"
+                  class="portfolio__img"
                   src="./images/portfolio/portfolio-5.jpg"
                   alt="Две коробки"
                   width="370"
                   height="294"
                 />
-                <p class="portfolio-descr">
+                <p class="portfolio__description">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="inner">
-                <h2 class="products">Проект Boxes</h2>
-                <p class="description">Приложение</p>
+              <div class="portfolio__inner">
+                <h2 class="portfolio__products">Проект Boxes</h2>
+                <p class="portfolio__type">Приложение</p>
               </div>
             </li>
-            <li class="portfolio-list">
-              <div class="image-descr">
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
                 <img
-                  class="portfolio-img"
+                  class="portfolio__img"
                   src="./images/portfolio/portfolio-6.jpg"
                   alt="Монитор"
                   width="370"
                   height="294"
                 />
-                <p class="portfolio-descr">
+                <p class="portfolio__description">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="inner">
-                <h2 class="products">Inspiration has no Borders</h2>
-                <p class="description">Веб-сайт</p>
+              <div class="portfolio__inner">
+                <h2 class="portfolio__products">Inspiration has no Borders</h2>
+                <p class="portfolio__type">Веб-сайт</p>
               </div>
             </li>
-            <li class="portfolio-list">
-              <div class="image-descr">
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
                 <img
                   src="./images/portfolio/portfolio-7.jpg"
                   alt="Развернутая книга"
                   width="370"
                   height="294"
                 />
-                <p class="portfolio-descr">
+                <p class="portfolio__description">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="inner">
-                <h2 class="products">Издание Limited Edition</h2>
-                <p class="description">Дизайн</p>
+              <div class="portfolio__inner">
+                <h2 class="portfolio__products">Издание Limited Edition</h2>
+                <p class="portfolio__type">Дизайн</p>
               </div>
             </li>
-            <li class="portfolio-list">
-              <div class="image-descr">
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
                 <img
                   src="./images/portfolio/portfolio-8.jpg"
                   alt="Этикетка с буквами"
                   width="370"
                   height="294"
                 />
-                <p class="portfolio-descr">
+                <p class="portfolio__description">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="inner">
-                <h2 class="products">Проект LAB</h2>
-                <p class="description">Маркетинг</p>
+              <div class="portfolio__inner">
+                <h2 class="portfolio__products">Проект LAB</h2>
+                <p class="portfolio__type">Маркетинг</p>
               </div>
             </li>
-            <li class="portfolio-list">
-              <div class="image-descr">
+            <li class="portfolio__item">
+              <div class="portfolio__thumb">
                 <img
                   src="./images/portfolio/portfolio-9.jpg"
                   alt="Ноутбук"
                   width="370"
                   height="294"
                 />
-                <p class="portfolio-descr">
+                <p class="portfolio__description">
                   Ресурс предлагает комплексные предложения с разным уровнем
                   функционала и сервисов. Все это позволит посетителю получить
                   исчерпывающие сведения о компании или частном лице.
                 </p>
               </div>
-              <div class="inner">
-                <h2 class="products">Growing Business</h2>
-                <p class="description">Приложение</p>
+              <div class="portfolio__inner">
+                <h2 class="portfolio__products">Growing Business</h2>
+                <p class="portfolio__type">Приложение</p>
               </div>
             </li>
           </ul>
@@ -267,8 +270,8 @@
       <div class="container footer__container">
         <!-- лого и адресс футера -->
         <div class="footer__address">
-          <a class="footer__logo" href="#"
-            >Web<span class="footer__span">Studio</span></a
+          <a class="logo logo__footer" href="#"
+            >Web<span class="logo logo__span--footer">Studio</span></a
           >
           <address>
             <ul class="footer__list">
