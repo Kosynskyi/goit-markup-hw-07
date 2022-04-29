@@ -1,0 +1,28 @@
+.logo,
+.logo__span {
+  font-family: var(--secondary-font);
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.14;
+  text-decoration: none;
+}
+
+.logo__footer {
+  margin-top: 0;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.logo__span--footer {
+  color: var(--bg-white-color);
+}
+
+.logo__header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.logo__span--header {
+  color: var(--title-text-color);
+}

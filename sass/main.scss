@@ -4,11 +4,39 @@
 // global - глобальные стили
 @import "./base/global";
 
+// оформление кнопок
+@import "./components/button";
+
+// оформление логотипа
+@import "./components/logo";
+
 // components - разделы сайта
 @import "./components/header";
+
+// секция герой
 @import "./components/hero-section";
 @import "./components/backdrop";
 @import "./components/modal";
+
+// секция принципы работы
 @import "./components/feature";
+@import "./vendors/visually-hidden";
+
+// секция с картинками
 @import "./components/picture";
+
+// секция наша команда
 @import "./components/team";
+@import "./components/networks";
+
+// секция постояннные клиенты
+@import "./components/clients";
+
+// футер
+@import "./components/footer";
+
+// вторая страница (кнопки)
+@import "./components/filter";
+
+// портфолио
+@import "./components/portfolio";

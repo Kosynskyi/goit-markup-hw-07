@@ -26,7 +26,7 @@ img {
 /* ===============================================общие стили */
 
 /* ================для папки vendors */
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -37,7 +37,7 @@ img {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
-}
+} */
 /* ======================= */
 /* общий стиль заголовка */
 
@@ -74,7 +74,7 @@ img {
   width: 1200px;
 } */
 
-.button {
+/* .button {
   margin-top: 0;
   padding: 10px 32px;
   color: var(--title-text-color);
@@ -144,7 +144,6 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-/* кнопка модальной формы */
 
 .button--subscribe::after {
   content: "";
@@ -155,11 +154,13 @@ img {
   top: 50%;
   right: 28px;
   transform: translateY(-50%);
-}
+} */
+
+/* кнопка модальной формы */
 
 /* =============общее оформление соцсетей */
 
-.social-networks {
+/* .social-networks {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -195,11 +196,11 @@ img {
   width: 20px;
   height: 20px;
   fill: currentColor;
-}
+} */
 
 /* ==================общее оформление лого */
 
-.logo,
+/* .logo,
 .logo__span {
   font-family: var(--secondary-font);
   color: var(--accent-color);
@@ -226,7 +227,7 @@ img {
 
 .logo__span--header {
   color: var(--title-text-color);
-}
+} */
 
 /* ===================================================оформление хедера */
 /* 
@@ -676,13 +677,10 @@ img {
 } */
 
 /* оформление секции клиенты */
-.client-section {
+/* .clients-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-
-/* .client-section {
-} */
 
 .clients__list {
   display: flex;
@@ -728,10 +726,10 @@ img {
   width: 106px;
   height: 60px;
   fill: currentColor;
-}
+} */
 
 /* оформление логотипа футера */
-.footer {
+/* .footer {
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 60px;
@@ -793,10 +791,10 @@ img {
 .footer__map:hover,
 .footer__map:focus {
   color: var(--accent-color);
-}
+} */
 
 /* ------------------------------------оформление соцсетей футера */
-.footer-links {
+/* .footer-links {
   margin-right: 93px;
 }
 
@@ -809,10 +807,10 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-}
+} */
 
 /* модификатор для иконок футера */
-.social-networks__link--footer {
+/* .social-networks__link--footer {
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -835,11 +833,11 @@ img {
 }
 .footer-subscribe__item::placeholder {
   color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /* =======================страница портфолио */
 
-.filter-section {
+/* .filter-section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -891,9 +889,9 @@ img {
 
 .filter_btn:last-child {
   margin-right: 0;
-}
+} */
 /* ================================страница портфолио */
-.portfolio__list {
+/* .portfolio__list {
   display: flex;
   flex-wrap: wrap;
 }
@@ -973,4 +971,4 @@ img {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.19;
-}
+} */
